@@ -79,15 +79,18 @@
             <div class="form-wrap">                
                 <form id="form" name="form">
                     <div class="form-control">
+			<span>News provider:</span>
                         <select id="provider" name="provider">
                             <option value="">Select news provider</option>
                             <option value="1">Twitter</option>
                         </select>
                     </div>
                     <div class="form-control">
+			<span>Interval in seconds:</span>
                         <input type="text" id="interval" name="interval" placeholder="Enter refreshing interval in seconds" value="5">
                     </div>
                     <div class="form-control">
+			<span>Username:</span>
                         <input type="text" id="username" name="username" placeholder="Enter username" value="netpeak_ru">
                     </div>
                     <div class="form-control">

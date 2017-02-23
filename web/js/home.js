@@ -31,7 +31,7 @@ function getNews() {
 
     if (provider == '') {
         stopTimer();
-        $('.content').empty().removeClass('processing');
+        $('.list').empty().removeClass('processing');
         alert('Error: Please select provider');
         return;
     }
