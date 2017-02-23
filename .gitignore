@@ -1,0 +1,11 @@
+.idea
+# Parameters
+/build.ini
+/app/Config.php
+
+# Managed by Composer
+/vendor/
+
+# Composer
+/composer.lock
+/composer.phar

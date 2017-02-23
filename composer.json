@@ -1,0 +1,27 @@
+{
+  "name": "tyorkin/news-feed-reader-demo",
+  "description": "demo for news feed reader",
+  "require": {
+    "tyorkin/news-feed-reader": "dev-master@dev"
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "git@github.com:tyorkin/newsfeedreader.git"
+    }
+  ],
+  "scripts": {
+    "post-install-cmd": [
+      "ComposerHook::generateConfig"
+    ]
+  },
+  "autoload": {
+    "classmap": ["app/"],
+    "psr-4": {
+      "Controller\\": "app/Controller",
+      "Service\\": "app/Service",
+      "Model\\": "app/Model",
+      "\\": "app/"
+    }
+  }
+}

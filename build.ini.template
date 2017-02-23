@@ -1,0 +1,4 @@
+twitter_consumer_key = "aaa"
+twitter_consumer_secret = "bbb"
+twitter_access_token = "ccc"
+twitter_access_token_secret = "ddd"
